@@ -3,13 +3,11 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
 * Purpose: Build of a loan risk model to be trained and evaluated using various techniques
 
 * Data source: Historical lending activity from a peer-to-peer lending services company to predict creditworthiness of borrowers
 
-* Variables to predict: 'loan_status' is the variable being predicted by the model being built, which indicates whether or not the loan is considered 'healthy' (i.e. '0' value) or high-risk (i.e. '1' value)
+* Variables: 'loan_status' is the variable being predicted by the model being built, which indicates whether or not the loan is considered 'healthy' (i.e. '0' value) or high-risk (i.e. '1' value)
 * Procedures taken:
     1) Data wrangling using pandas, including separation of the variable to be tested and the remainder of the data
     2) Create separate training and testing datasets using scikit-learn's 'train_test_split' function
