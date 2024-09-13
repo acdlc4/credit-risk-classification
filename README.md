@@ -27,4 +27,16 @@
 
 ## Summary
 
-After review of the classification report of the model results, the recommendation is to use the model as built as all three results (i.e. accuracy, precision, and recall) of the model are above 0.90, indicating very strong results.  Consideration for further review for outlier cases for high-risk loans may be needed to further minimize lending risk to the company.
+After review of the classification report of the model results, the recommendation is to use the model as built. All three results (i.e. accuracy, precision, and recall) of the model are above 0.90, indicating very strong results.  Consideration for further review for outlier cases for high-risk loans may be needed to further minimize lending risk to the company as results for this loan type came in slightly below the results for the healthy loans.
+
+
+##
+### File locations
+#### Jupyter notebook:
+- https://github.com/acdlc4/credit-risk-classification/blob/main/credit_risk_classification.ipynb
+#### CSV source data:
+- https://github.com/acdlc4/credit-risk-classification/blob/main/Resources/lending_data.csv
+
+### Any questions?
+
+Feel free to send a message to acdlc4@gmail.com with any questions / comments. Inspiration and credit for any code used is from work done during my attendance in the 2024 Northwestern University Data Analysis Bootcamp class sessions.
